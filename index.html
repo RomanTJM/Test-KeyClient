@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-menu">
+            <h1 class="header-logo">Logo</h1>
+            <div>
+                <img class="header-menu-icon" src="./Icon/person.svg" alt="person">
+                <img class="header-menu-icon" src="./Icon/favorite.svg" alt="favorite">
+                <img class="header-menu-icon" src="./Icon/bag.svg" alt="bag">
+                <a href="#" class="dropdown-open">
+                    <img  src="./Icon/dropdown.svg" width: 24px height: 24px alt="menu">
+                </a>
+                <form class="dropdown">
+                    <img class="dropdown-close" src="./Icon/dropdown-close.svg" alt="close">
+                    <a href="#" class="dropdown-text">Постельное белье</a>
+                    <a href="#" class="dropdown-text">Одежда для дома</a>
+                    <a href="#" class="dropdown-text">Одежда для улицы</a>
+                    <a href="#" class="dropdown-text">Выход</a>
+                </form>
+            </div>
+        </div>
+
+    </header>
+    <main class="main">
+        <div class="main-left">
+            <div class="main-slider">
+                <div class="slider">
+                    <img class="slider-item" src="./Image/slider-1.png" alt="slider">
+                    <img class="slider-item" src="./Image/slider-2.png" alt="slider">
+                    <img class="slider-item" src="./Image/slider-3.png" alt="slider">
+                    <img class="slider-item" src="./Image/slider-4.png" alt="slider">
+                    <img class="slider-item" src="./Image/slider-5.png" alt="slider">
+                </div>
+                <div class="slider-block-btn">
+                    <img class="slider-btn active" src="./Image/slider-1.png" alt="slider">
+                    <img class="slider-btn" src="./Image/slider-2.png" alt="slider">
+                    <img class="slider-btn" src="./Image/slider-3.png" alt="slider">
+                    <img class="slider-btn" src="./Image/slider-4.png" alt="slider">
+                    <img class="slider-btn" src="./Image/slider-5.png" alt="slider">
+                </div>
+            </div>
+        </div>
+        <div class="main-right">
+            <h2 class="main-right-text">Пижама для девочек</h2>
+            <p class="main-right-code">Арт. 02765/46</p>
+            <div class="main-right-reviews"> 
+                <h3 class="main-right-reviews-text">Отзывы</h3>
+                <img class="main-right-stars" src="./Icon/stars.svg" alt="stars">
+                <h3 class="main-right-reviews-text">14 отзывов</h3>
+            </div>
+            <div class="main-right-prices">
+                <div class="prices-flex">
+                    <h2 class="main-right-prices-text">800 &#8381;</h2>
+                    <p class="main-right-prices-subtext">1500 &#8381;</p>
+                </div>
+                <div class="discount-grid">
+                    <h3 class="main-right-prices-discount">скидка -47%</h3>
+                    <h3 class="main-right-prices-discount">скидка -20%</h3>
+                </div>
+            </div>
+            <select name="user_size_1" class="main-right-size">
+                <option value="1">Выбрать размер</option>
+                <option value="2">XS</option>
+                <option value="3">S</option>
+                <option value="4">M</option>
+                <option value="5">L</option>
+                <option value="6">XL</option>
+            </select>
+            <h3 class="main-right-size-text">Определить размер</h3>
+            <div class="main-right-button">
+                <div class="main-right-amount">
+                    <button class="amount-btn" id="amount-plus">+</button>
+                    <input class="amount-input" name="input" id="amount-col" value="1">
+                    <button class="amount-btn" id="amount-minus">-</button>
+                </div>
+                <div class="main-right-button-flex">
+                    <button class="main-right-basket-btn">Добавить в корзину</button>
+                    <button class="main-right-like-btn">
+                        <img class="main-right-like" src="./Icon/like.svg" alt="like">
+                    </button>
+                </div>
+            </div>
+            <a href="#" class="open-modal main-right-bay-btn">Купить в 1 клик</a>
+            <div class="modal-background"> 
+                <form class="modal">
+                    <img class="close-modal" src="./Icon/close.svg" alt="close">
+                    <h1 class="modal-text">Купить в 1 клик</h1>
+                    <div class="modal-flex">
+                        <input class="modal-input" type="tel" name="tel" placeholder="+ 7 (---) --- -- --">
+                        <input class="modal-input" type="text" name="name" placeholder="Ваше имя">  
+                    </div>
+                    <p class="modal-subtext"> Нажимая кнопку “Отправить”, я даю согласие на обработку моих персональных данных в соответствии с <br><u>Условиями конфиденциальности</u></p>
+                    <button class="modal-button" type="submit">Отправить</button>                   
+                </form>
+            </div>  
+            <div class="main-right-description">
+                <button class="main-right-bay-btn product-btn">
+                    <img class="main-right-cloth" src="./Icon/cloth.svg" alt="cloth">
+                    Описание товара
+                </button>
+                <button class="main-right-bay-btn delivery-btn">
+                    <img class="main-right-clock" src="./Icon/clock.svg" alt="clock">
+                    Доставка и возврат
+                </button>
+                <button class="main-right-bay-btn payment-btn">
+                    <img class="main-right-card" src="./Icon/card.svg" alt="card">
+                    Способ оплаты
+                </button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-buyers">
+            <h3 class="footer-text">Покупателям</h3>
+            <a href="" class="footer-subtext">Каталог</a>
+            <a href="" class="footer-subtext">Акции</a>
+            <a href="" class="footer-subtext">Бренды</a>
+        </div>
+        <div class="footer-buyers">
+            <h3 class="footer-text">О нас</h3>
+            <a href="" class="footer-subtext">О компании</a>
+            <a href="" class="footer-subtext">Новости</a>
+            <a href="" class="footer-subtext">Команда</a>
+        </div>
+        <div class="footer-buyers">
+            <form class="footer-form">
+                <h3 class="footer-text footer-text-mobile">Узнавайте первыми о новинках и акциях</h3>
+                <input class="footer-form-input" type="email" name="email" placeholder="Адрес электронной почты">
+                <button class="footer-form-button" type="submit">Подписаться</button>  
+            </form>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
